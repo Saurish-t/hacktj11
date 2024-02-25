@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#logo{
+    color:white;
+    font-weight:700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left:200px;
+}
+
+#goal{
+    float:right;
+    margin-right:100px;
+}
+.box1 {
+    float: left;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    background-image: url('og.avif');
+    background-size: cover;
+    background-position: center;
+}
+
+.nav-item {
+    padding: 5px 10px;
+}
+
+.abt {
+    float: right;
+    margin-right: 10vw;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.abt:hover {
+    color: black;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 60px;
+}
+
+#goal {
+    float: right;
+    margin-right: 100px;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#goal:hover {
+    color: black;
+    background-color: #fff;
+    border-radius: 20px;
+    font-weight: 700;
+}
+#sidebar1{
+    float: left;
+    color:white;
+    margin-top:5%;
+    text-align: center;
+    width: 38%;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 2vh;
+    box-sizing: border-box;
+}
+
+#main{
+    margin-top:15%;
+    color:white;
+    text-align: center;
+    width: 27%;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 2vh;
+    box-sizing: border-box;
+
+}
+#sidebar2{
+    margin-top:5%;
+    color:white;
+    text-align: center;
+    float: right;
+    width: 35%;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 2vh;
+    box-sizing: border-box;
+}
+

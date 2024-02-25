@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Finance Shield</title>
+        <link rel="stylesheet" type="text/css" href="style7.css">
+    </head> 
+    <body>
+        <header>
+            <div class="box1">
+                <input type="text" id="textInput" placeholder="Message:">
+                <button onclick="askQuestion()" class="nav-item">Enter</button>
+                <a href="#" class="logo nav-item" id="logo">Finance Shield</a>
+                <a href="page2.html" class="abt nav-item">About Us</a>
+                <a href="https://github.com/Saurish-t/hacktj11/blob/main/final.ipynb" target="_blank" rel="noopener noreferrer" class="abt nav-item">Link to Model</a>
+                <form action="" class="search-bar nav-item">
+                    <input type="text" placeholder="Enter Ticker" name="q">
+                    <button type="submit" id="btn"><img src="download.png"></button>
+                </form>
+            </div>
+            
+            <div class="box3" id="b3">
+                <section>
+                    <div class="sidebar" id="s1">
+                        <a></a>
+                    </div>
+                    <div class="sidebar" id="s2">
+                        <p>
+                            First we take the ticker provided, and send it to a machine learning model. This model looks at the past trend of that company and then predicts its future value using LSTM. This happens by taking data from the previous 5 years, and uses a LSTM model to create a graph of company stock prices for the next 5 years. Then this graph is analyzed and we provide a conclusion of whether or not you should invest in a company. 
+                        </p>
+                    </div>
+                </section>
+                <div id="response" class="nav-item"></div>
+            </div> 
+            <div class="container">
+                <!--<form action="" class="search-bar">
+                    <input type="text" placeholder="                                                Enter Ticker" name="q">
+                    <button type="submit"><img src="download.png"></button>
+                </form>-->
+    
+            </div>
+        </header>
+
+    <script src="script.js">
+
+    </script>
+    </body>
+</html>
